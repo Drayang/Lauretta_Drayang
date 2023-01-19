@@ -56,6 +56,11 @@ while True:
 	net.setInput(blob)
 	detections = net.forward()
 
+	'''
+	#TODO Integrate the Osnet deep network here for tracking
+	'''
+
+
 	# loop over the detections
 	for i in np.arange(0, detections.shape[2]):
 		# extract the confidence (i.e., probability) associated with
