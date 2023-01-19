@@ -2,7 +2,10 @@
 
 I implemented “TorchReid”, which is a deep learning person re-identification approach in PyTorch developed by Zhou Kai Yang and his team for ICCV’19, [Omni-Scale Feature Learning for Person Re-Identification ](https://arxiv.org/abs/1905.00953). Torchreid is a library for deep-learning person re-identification, written in [PyTorch ](https://pytorch.org/).
 
+Besides, I tried to implement YOLOv3 for object detection to perform a complete real time person re-identification application. The YOLOv3 object detection is refer to this [YOLO Object Detection with OpenCV](https://github.com/yash42828/YOLO-object-detection-with-OpenCV).
 
+## Discussion
+The complete discussion on code and result is written in the [Discussion.pdf](https://github.com/Drayang/Lauretta_Drayang/blob/master/Discussion.pdf).
 
 ## Citation
 
