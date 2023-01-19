@@ -1,10 +1,11 @@
 ## Using TorchReid and Yolo model for real time person reidentification
 
-Torchreid is a library for deep-learning person re-identification, written in [PyTorch ](https://pytorch.org/) and developed for our ICCV'19 project, [Omni-Scale Feature Learning for Person Re-Identification ](https://arxiv.org/abs/1905.00953).
+I implemented “TorchReid”, which is a deep learning person re-identification approach in PyTorch developed by Zhou Kai Yang and his team for ICCV’19, [Omni-Scale Feature Learning for Person Re-Identification ](https://arxiv.org/abs/1905.00953). Torchreid is a library for deep-learning person re-identification, written in [PyTorch ](https://pytorch.org/).
+
 
 
 ## Citation
----------
+
 If you use this code or the models in your research, please give credit to the following papers:
 
 .. code-block:: bash
