@@ -77,7 +77,8 @@ while True:
 			box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
 			(startX, startY, endX, endY) = box.astype("int")
 
-			# draw the prediction on the frame
+			# draw the prediction on the frame 
+			# only detect person
 			if CLASSES[idx] == "person":
 				label = "{}: {:.2f}%".format(CLASSES[idx],
 					confidence * 100)
